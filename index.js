@@ -24,7 +24,7 @@ function addNewLiOnClick() {
     console.log('for some reason this event is getting called twice!!');
     console.log('calling addNewElementAsLi()');
     addNewElementAsLi();
-    e.stopPropagation();
+    event.stopPropagation();
     //document.querySelector('input').value = "";
   });
 }
