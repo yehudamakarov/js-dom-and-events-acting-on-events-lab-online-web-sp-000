@@ -31,9 +31,9 @@ function clearEmployeeListOnLinkClick() {
   clearButton.addEventListener('click', function(event) {
     let ul = document.querySelector('ul.employee-list');
     let lis = ul.querySelectorAll('li')
-    for (let i = 1; i <= lis.length; i++) {
+    for (let i = 0; i < lis.length; i++) {
       //ul.removeChild(ul.querySelector(`li:nth-child(${i})`));
-      lis.remove();
+      lis[i].remove();
     }
   });
 }
