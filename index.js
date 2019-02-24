@@ -23,8 +23,7 @@ function addNewLiOnClick() {
     debugger;
     console.log('calling addNewElementAsLi()');
     addNewElementAsLi();
-    document.querySelector('input').value = "";
-    event.stopPropagation();
+    //document.querySelector('input').value = "";
   });
 }
 
