@@ -20,7 +20,6 @@ function addNewElementAsLi() {
 function addNewLiOnClick() {
   let addButton = document.querySelector('main form input[type="submit"]');
   addButton.addEventListener('click', function(event) {
-    debugger;
     console.log('calling addNewElementAsLi()');
     addNewElementAsLi();
     //document.querySelector('input').value = "";
