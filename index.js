@@ -18,7 +18,6 @@ function addNewElementAsLi() {
 }
 
 function addNewLiOnClick() {
-  console.log('addNewLiOnClick called.')
   let addButton = document.querySelector('main form input[type="submit"]');
   addButton.addEventListener('click', function(event) {
     console.log('calling addNewElementAsLi()');
