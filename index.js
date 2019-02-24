@@ -32,4 +32,3 @@ function clearEmployeeListOnLinkClick() {
     //document.querySelector('ul.employee-list').remove();
   });
 }
-*/
