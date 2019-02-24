@@ -21,7 +21,6 @@ function addNewLiOnClick() {
   console.log('addNewLiOnClick called.')
   let addButton = document.querySelector('main form input[type="submit"]');
   addButton.addEventListener('click', function(event) {
-    console.log('for some reason this event is getting called twice!!');
     console.log('calling addNewElementAsLi()');
     addNewElementAsLi();
     document.querySelector('input').value = "";
