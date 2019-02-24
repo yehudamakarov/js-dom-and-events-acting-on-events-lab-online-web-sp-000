@@ -22,7 +22,7 @@ function addNewLiOnClick() {
   addButton.addEventListener('click', function(event) {
     console.log('calling addNewElementAsLi()');
     addNewElementAsLi();
-    document.querySelector('input').value = "";
+    resetInput();
     event.stopPropagation();
   });
 }
