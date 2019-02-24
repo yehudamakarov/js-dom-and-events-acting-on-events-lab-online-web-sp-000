@@ -23,7 +23,7 @@ function addNewLiOnClick() {
     console.log('calling addNewElementAsLi()');
     addNewElementAsLi();
     document.querySelector('input').value = "";
-  }, once);
+  });
 }
 
 
